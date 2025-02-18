@@ -1,0 +1,6 @@
+Futures
+
+// Functions
+1. Close all and cancel all
+2. Check min balance
+3. Check margin call event by user data stream (80%)

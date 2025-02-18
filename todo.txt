@@ -1,6 +1,27 @@
 Futures
 
-// Functions
-1. Close all and cancel all
-2. Check min balance
-3. Check margin call event by user data stream (80%)
+// Available Functions
+// SPOT
+- Get account
+- Get all orders
+- Get open orders
+- Cancel specific order
+- market order
+- limit order
+- stop loss
+
+// Required Functions
+// FUTURES
+- Modify open order (target, stop loss, limit)
+- Close all and cancel all
+- Check min balance
+- Check margin call event by user data stream (80%)
+- Set leverage
+- Close long / short
+- Check unrealized PNL
+
+// Strategy Performance
+- Calculate sharpe
+- Calculate overall PNL
+- Calculate winrate
+- Calculate drawdown

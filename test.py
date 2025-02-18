@@ -39,7 +39,7 @@ def main():
 
 main()
 
-'''
+# '''
 
 @bot.message_handler(commands=['start'])
 def initialize_bot(message):
@@ -59,7 +59,7 @@ def bot_info(message):
 
 @bot.message_handler(commands=['market'])
 def make_market_order(message):
-    '''Market order: /market {side} {amount} {symbol}'''
+    ''' Market order: /market {side} {amount} {symbol} '''
     DB = Database()
     if self.correct_user(message, DB):
         try:
@@ -201,6 +201,4 @@ def kill_app(message):
     self.bot.stop_polling()
     bot.send_message(0, message)
 
-
-
-'''
+# '''
